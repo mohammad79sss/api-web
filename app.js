@@ -13,8 +13,8 @@ const pool  = mysql.createPool({
     connectionLimit : 10,
     host            : 'moradinima.ir',
     port            :  '3306',
-    user            : 'root',
-    password        :  null,
+    user            : 'rucerimu_messages	',
+    password        :  '123456',
     database        : 'rucerimu_messages'
 })
 
