@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 const pool  = mysql.createPool({
     connectionLimit : 10,
     host            : 'moradinima.ir',
-    port            :  3306,
+    port            :  '3306',
     user            : 'root',
     password        :  null,
     database        : 'rucerimu_messages'
